@@ -36,6 +36,8 @@ public class Usuario extends javax.swing.JFrame {
         NResul = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -70,7 +72,6 @@ public class Usuario extends javax.swing.JFrame {
         Result.setText("Resultado");
 
         NResul.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        NResul.setText("12");
 
         jTable1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -89,15 +90,18 @@ public class Usuario extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
+        jLabel1.setText("Ver. 1.0 Gabriel NetBeans 13");
+
+        jLabel2.setFont(new java.awt.Font("Baskerville Old Face", 0, 48)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel2.setText("DESAFIO 1");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(113, 113, 113)
-                        .addComponent(Titulo))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(83, 83, 83)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -106,40 +110,53 @@ public class Usuario extends javax.swing.JFrame {
                                 .addGap(82, 82, 82)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addGap(39, 39, 39)
-                                        .addComponent(Result)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGap(111, 111, 111)
                                         .addComponent(NResul, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(CaixaText, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                                    .addComponent(CaixaText, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(107, 107, 107)
+                        .addComponent(Titulo)))
                 .addContainerGap(77, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(Enter)
+                        .addComponent(Digitesua)
+                        .addGap(207, 207, 207))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(Result)
+                            .addComponent(Enter))
                         .addGap(247, 247, 247))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addComponent(Digitesua)
-                        .addGap(207, 207, 207))))
+                        .addComponent(jLabel1)
+                        .addGap(30, 30, 30))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jLabel2)
+                        .addGap(169, 169, 169))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(14, 14, 14)
+                .addGap(17, 17, 17)
+                .addComponent(jLabel2)
+                .addGap(18, 18, 18)
                 .addComponent(Titulo)
-                .addGap(59, 59, 59)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(30, 30, 30)
                 .addComponent(CaixaText, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Digitesua)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
                 .addComponent(Enter)
                 .addGap(29, 29, 29)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(NResul)
                     .addComponent(Result, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(117, 117, 117))
+                .addGap(45, 45, 45)
+                .addComponent(jLabel1)
+                .addGap(15, 15, 15))
         );
 
         pack();
@@ -215,6 +232,8 @@ NResul.setText(Pontuacao);
     private javax.swing.JLabel NResul;
     private javax.swing.JLabel Result;
     private javax.swing.JLabel Titulo;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
