@@ -1,8 +1,10 @@
 # DesafioIdevs
 
-Status: Finalizado.
+Status: Finalizado.✔️
 
-![Desafio 1 (100 px × 100 px) (200 px × 200 px)](https://user-images.githubusercontent.com/69040085/160402718-48ccafda-cbb2-4bb8-b96d-9ef1f291e196.png)
+<div align="center">
+ <Img src="https://user-images.githubusercontent.com/69040085/160409208-fe83187e-977d-4a2d-b186-a7cfbaa4a75c.png" />
+ </div>
 
 
 
