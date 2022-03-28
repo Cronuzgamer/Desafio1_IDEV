@@ -6,9 +6,18 @@ Status: Finalizado.✔️
  <Img src="https://user-images.githubusercontent.com/69040085/160409208-fe83187e-977d-4a2d-b186-a7cfbaa4a75c.png" />
  </div>
 
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * Como usar
+   * [Pré Requisitos](#Pré-requisitos)
+   * [Tecnologia](#tecnologia)
+<!--te-->
 
 
-<h1 align="center">DESAFIO 1</h1>
+<h4>Sobre</h4>
+
 
 
 <p align="center">Desafio para calcular o valor de uma "palavra", a partir de uma tabela contendo Letras e seus respectivos valores,
@@ -23,6 +32,8 @@ gerando assim um valor Inteiro.</p>
 Antes de começar, você vai precisar ter instalado em sua máquina o seguinte software. <!-- Text link tag - by www.rapidtables.com -->
  <a href="https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245776_df5ad55fdd604472a86a45a217032c7d">Java</a>.
  
+<h4>Como usar</h4>
+
 #Para executar o programa so clicar duas vezes em "Desafio 1". Digitar a palavra na tela que ira aparecer e clicar em "ENTER" Gerando o resultado.
 
 <h4>🛠️Tecnologia</h4>
